@@ -75,18 +75,17 @@
         font: bold 50px ;
         }
 
-    .section1, .section2{
-        max-width: 40%;
+    .section1, .section2 {
+        max-width: 45%;
         position: relative;
         float: left;
 
-        /* float: left; */
-       }
+    }
 
     .section3{
         position: absolute;
         top: 320px;
-        width: auto;
+        width: 91%;
     }
 
     .section1, .section2, .section3 {
