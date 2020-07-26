@@ -26,7 +26,7 @@ a.navbar-brand:hover {
     
     margin-top: 100px;
     font-weight: bold;
-    clear: both;
+    
     position: relative;
 }
 
@@ -72,16 +72,17 @@ a.navbar-brand:hover {
     .navbar-nav {
         display: none;
     }
-}
 
-@media screen and (max-width: 767px) {
   
-   #chicken, #Beef, #Sushi {
-      position: relative;
-   }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media screen and (max-width: 576px) {
+    #chicken, #Beef, #Sushi {
+        position: relative;
+     }
+  }
+
+@media (min-width: 576px) and (max-width: 768px){
 *{
     box-sizing: border-box;
 }
@@ -91,7 +92,7 @@ a.navbar-brand:hover {
 
 #Sushi{
     position: absolute;
-  
+    
 }
 
 }
