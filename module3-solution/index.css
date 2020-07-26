@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+}
+.navbar-brand{
+color: white;
+font-size: 30px;
+font-weight: bolder;
+}
+
+a.navbar-brand:hover {
+    color: rgba(40, 6, 65, 0.575);
+}
+
+
+#collapsibleNavBar a.nav-link{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+#collapsibleNavBar a.nav-link:hover {
+    background-color: indigo;
+}
+
+
+#heading {
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    clear: both;
+    position: relative;
+}
+
+#chicken, #Beef, #Sushi{
+    border: 1px solid black;
+    margin: 60px 30px;
+    padding: 40px 40px;
+    background-color: lightgrey;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+   
+}
+
+#chicken h3, #Beef h3, #Sushi h3{
+    text-align: center;
+    font-weight: bold;
+
+}
+/* for Extra small screen */
+@media screen and (max-width: 288px) {
+  .navbar-brand {
+      font-size: 15px;
+  }
+
+  #chicken,#Beef, #Sushi {
+      padding: 20px 20px;
+      margin: 60px 10px;
+  }
+  #chicken h3,#Beef h3, #Sushi h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+}
+/* for large screen except small screen */
+@media screen and (min-width: 576px) {
+  
+    .navbar-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+  
+   #chicken, #Beef, #Sushi {
+      position: relative;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+*{
+    box-sizing: border-box;
+}
+#chicken, #Beef {
+    position: relative;
+}
+
+#Sushi{
+    position: absolute;
+  
+}
+
+}
