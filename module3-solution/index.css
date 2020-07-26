@@ -23,7 +23,7 @@ a.navbar-brand:hover {
 
 
 #heading {
-    text-align: center;
+    
     margin-top: 70px;
     font-weight: bold;
     clear: both;
@@ -60,6 +60,9 @@ a.navbar-brand:hover {
     text-align: center;
     font-weight: bold;
     font-size: 15px;
+}
+#heading{
+    font-size: 30px;
 }
 }
 /* for large screen except small screen */
